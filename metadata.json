@@ -1,0 +1,8 @@
+{
+  "name": "Remix شركة رواكد الشمالية",
+  "description": "شركة رواكد الشمالية للخدمات اللوجستية، الشحن، التخليص الجمركي، المقاولات والاستيراد والتصدير - الدمام، المملكة العربية السعودية",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

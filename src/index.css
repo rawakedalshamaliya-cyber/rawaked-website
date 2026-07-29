@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #0A1D37;
+  --gold: #C5A059;
+  --gold-hover: #b08d48;
+  --bg: #FAF9F6;
+  --surface: #FFFFFF;
+  --text: #0B192C;
+  --muted: #475569;
+  --border: #E5E2D9;
+  --agri-subtle: #D8E2DC;
+  --agri-border: #2D6A4F;
+}
+
+@layer base {
+  html {
+    font-family: 'Cairo', 'IBM Plex Sans Arabic', 'Tajawal', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: 'Cairo', 'IBM Plex Sans Arabic', 'Tajawal', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: normal;
+    color: #0B192C;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    font-weight: 700;
+    color: #0A1D37;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    color: #334155;
+    line-height: 1.75;
+  }
+}
+
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0A1D37;
+}
